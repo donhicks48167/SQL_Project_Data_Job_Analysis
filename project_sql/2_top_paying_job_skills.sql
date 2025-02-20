@@ -13,7 +13,7 @@ WITH top_paying_jobs AS (
         LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
     WHERE job_title_short = 'Data Analyst'
         AND (
-            job_location = 'Philadelphia, PA'
+            job_work_from_home = TRUE
         )
         AND salary_year_avg IS NOT NULL
     ORDER BY salary_year_avg DESC
@@ -39,5 +39,6 @@ INNER JOIN skills_dim
 4. **Python and R appear only once**, suggesting that coding-heavy roles may be less common in this dataset.
 5. **A mix of tools like SPSS, SQL Server, Oracle, and Tableau appears infrequently**, but they may be role-specific.
 6. **Phoenix is listed once**, which may refer to specialized software or a framework.
+*/
 
 

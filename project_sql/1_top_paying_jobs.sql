@@ -16,7 +16,7 @@ FROM job_postings_fact
     LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
 WHERE job_title_short = 'Data Analyst'
     AND (
-        job_location = 'Philadelphia, PA'
+        job_work_from_home = TRUE
     )
     AND salary_year_avg IS NOT NULL
 ORDER BY salary_year_avg DESC
