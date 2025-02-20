@@ -41,7 +41,6 @@ LIMIT 10;
 - SmartAsset appears twice with high-paying Principal Data Analyst roles — potentially signaling growth or a strong data team.
 - Even the "lowest" salaries here are $184K, which is well above the market average for Data Analysts — indicating these roles likely require seniority or specialized analytics skills.
 
-
 ![Top Paying Roles](assets\1_top_paying_jobs.png)
 *Bar graph visualizing the salary for top 10 salaries for data analysts;
 ChatGPT generated this graph from query results*
